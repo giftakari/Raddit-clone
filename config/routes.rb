@@ -4,8 +4,12 @@ Rails.application.routes.draw do
 
   get "/", to:"main#index"
 
+
   # Get About 
   get "about", to:"about#index"
+
+  # Register controller 
+  get "register", to:"register#index"
 
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
